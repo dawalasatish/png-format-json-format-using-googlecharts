@@ -1,0 +1,17 @@
+ <div class="container">
+  <div class="row">
+      <div class="col-md-6">
+        <app-pie-chart [data]="data1"  [elementId]="elementId1"></app-pie-chart>
+      </div>
+      <div class="col-md-6">
+        <app-pie-chart [data]="data2"  [elementId]="elementId2"></app-pie-chart>
+      </div>
+      <div class="col-md-12">
+        <app-line-chart [linedata]="data4" [elementId]="elementId4"></app-line-chart>
+      </div>
+  </div>
+  <div class="container">
+    <button type="button"  class="btn btn-primary" (click)="test()">screeenshot</button>
+    <br><br>
+  </div>
+</div> 
